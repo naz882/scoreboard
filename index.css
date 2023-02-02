@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+@font-face {
+font-family: "CursedTimer";
+src: url("CursedTimer.ttf");
+}
+
+.homeGuestArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 575px;
+    height: 385px;
+    background: linear-gradient(180deg, rgba(66,187,208,1) 20%, rgba(16,93,145,1) 100%);
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    color: #F94F6D;
+    font-family: "CursedTimer";
+    font-size: 80px;
+}
+
+.buttons {
+    display: flex;
+    width: 155px;
+    justify-content:  space-around;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #9AABD8;
+    width: 45px;
+    height: 45px;
+    font-family: "CursedTimer";
+    color: #9AABD8;
+    border-radius: 5px;
+}

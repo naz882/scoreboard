@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="homeGuestArea">
+                <h3>HOME</h3>
+                    <div class="timer">
+                        <span id ="home">0</span>
+                    </div>
+                    <div class="buttons">
+                        <p class="button" onclick="add(1, 'home')">+1</p>
+                        <p class="button" onclick="add(2, 'home')">+2</p>
+                        <p class="button" onclick="add(3, 'home')">+3</p>
+                    </div>
+            </div>
+                <div class="homeGuestArea">
+                <h3>GUEST</h3>
+                    <div class="timer">
+                        <span id="guest">0</span>
+                    </div>
+                    <div class="buttons">
+                        <p class="button" onclick="add(1, 'guest')">+1</p>
+                        <p class="button" onclick="add(2, 'guest')">+2</p>
+                        <p class="button" onclick="add(3, 'guest')">+3</p>
+                    </div>
+                </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
